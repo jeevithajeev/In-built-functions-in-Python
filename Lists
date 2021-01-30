@@ -1,0 +1,18 @@
+#Python program that illustrate Lists
+#List is represented using []
+list = ["python", "java", "javascript", "C", "C++"]
+print(list)
+#list is mutable, means we can add/delete items from list
+#list has no attribute push()
+list.append("Ruby")
+print(list)
+#print length of list
+print(len(list))
+#print location of "java"
+print(list.index("java"))
+#lets delete "C" from our list using pop(), this prints out item in console
+print(list.pop(3))
+#remove(), prints out None in console but removes item
+print(list.remove("C++"))
+print(list)
+
