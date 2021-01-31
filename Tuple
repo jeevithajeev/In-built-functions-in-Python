@@ -1,0 +1,13 @@
+#Tuple
+#tuple is represented using ()
+#tuple is useful when we don't was our data to be modified
+tuple = ("python", "java", "javascript", "C", "C++")
+print(tuple)
+#tuple is immutable, means we cannot add/delete items from tuple
+#Below line throws error
+# print(tuple.append("Ruby"))
+print(len(tuple))
+print(tuple.index("python"))
+#Below two lines throws error as tuple is immutable
+print(tuple.pop(3))
+print(tuple.remove(3))
