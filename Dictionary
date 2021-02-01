@@ -1,0 +1,12 @@
+#Dictionary is used to store data in key:value pairs
+#dictionary is represented using {}
+mydict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+print(mydict["brand"])
+#print length of mydict
+print(len(mydict))
+#print type of mydict
+print(type(mydict))
